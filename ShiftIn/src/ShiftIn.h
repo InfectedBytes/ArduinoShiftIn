@@ -86,7 +86,7 @@ public:
 		digitalWrite(ploadPin, HIGH);
 		digitalWrite(clockEnablePin, LOW);
 
-		for(int i = 0; i < dataWidth; i++) {
+		for(uint16_t i = 0; i < dataWidth; i++) {
 			ShiftType value = digitalRead(dataPin);
 			result |= (value << ((dataWidth-1) - i));
 			digitalWrite(clockPin, HIGH);
