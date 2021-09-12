@@ -4,6 +4,8 @@ This is a small library for reading in values from a 74HC165 8 bit shift registe
 The Arduino has only a limited amount of pins, therefore it might happen that you run out of pins.
 For this case, the 74HC165 comes to the rescue. It is an 8 bit shift register. It allows you to read in 8 values by only using 4 pins on your Arduino. Furthermore you can daisy-chain several shift registers by still only using 4 Arduino Pins.
 
+Try it out in the Wokwi Arduino Simulator: [ShiftIn Simulation](https://wokwi.com/arduino/projects/309541392694116928)
+
 ## Easy install (zip import)
 The easiest way to install this library is by downloading the newest release and then importing it.
 You don't have to unzip it. Just open your Arduino IDE and navigate to *Sketch* > *Include Library* > *Add .ZIP* and then select the zip file.
